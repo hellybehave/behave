@@ -1,0 +1,16 @@
+*.mp4
+*.mov
+*.avi
+frames/
+uploads/
+*_calibration*
+*baseline*
+calibration_params*
+person_DIAMOR*.csv
+groups_DIAMOR*.dat
+*.npz
+*.pkl
+bottleneck/
+behave_core*.py
+behave_stability*.py
+fields_core*.py
