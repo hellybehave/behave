@@ -50,6 +50,26 @@ Tested on independent public research datasets, with negative results retained a
 We also retain results where a stronger conventional baseline explains the effect. The propagation-depth signal, for instance, collapsed into ordinary crowd geometry once the baseline included dispersion and directional coherence — reported as a falsification, not folded into a claim.
 
 ---
+# DATA AVAILABILITY
+
+All evaluations use public research datasets, downloadable from their original providers. We do not redistribute the data; download from source and cite the original authors as required.
+
+**ATR / DIAMOR** — pedestrian trajectories with human-annotated groups, Osaka
+https://dil.atr.jp/ISL/sets/groups/
+Laser-range-finder tracking; groups labelled manually. Free for research use only; cite Zanlungo et al.
+
+**Jülich Pedestrian Dynamics Data Archive** — bottleneck experiments
+https://ped.fz-juelich.de/database (DOI: 10.34735/ped.da)
+Bottleneck 2021: http://ped.fz-juelich.de/da/2021bottleneck
+Head trajectories + mood-rating questionnaires; PeTrack extraction. Free to use, name the source.
+
+**MADRAS** — Lyon Fête des Lumières crowd dataset
+https://zenodo.org/records/13830435 (DOI: 10.5281/zenodo.13830435)
+Dense real-crowd trajectories, synchronized cameras. Open, cite the MADRAS project.
+
+Reproduction scripts for the DIAMOR and Jülich tests are in [`results/`](results/); they use only the public trajectory columns.
+
+---
 
 # SCOPE
 
